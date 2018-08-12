@@ -15,7 +15,7 @@ header {
     padding:0px;
     line-height:80px;
     font-size: 20px;
-    
+    min-width: 270px;
 }
 
 nav {
@@ -52,10 +52,6 @@ nav {
     background-color: #ffffff;
 }
 /* end link specifications*/
-
-.contact {
-    padding-right: 30px; /* to space the right side of nav from the side of the page*/
-}
 
 .card {
     max-width:960px;
@@ -123,16 +119,15 @@ footer {
 }
 .caption {
     position: absolute;
-    top: 80%;
     text-align: center;
     background-color:#4aaaa5;
     color:#ffffff;
     width:100%;
-
+    bottom: 14%;
 }
 
 .portfolioImages {
-    width:100%;
+  width:100%;
 }
 
 form {
@@ -146,4 +141,6 @@ form {
 
 .portfolioLink {
     color: #ffffff;
+    margin:0 auto;
+    padding: 1.5%;
 }
